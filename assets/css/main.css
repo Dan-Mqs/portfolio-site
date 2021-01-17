@@ -753,13 +753,11 @@
 				display: block;
 				width: 3.75em;
 				height: 3.75em;
-				border-radius: 20%;
-				/*border: solid 1px #c8cccf;*/
 				line-height: 3.75em;
 				overflow: hidden;
 				text-align: center;
 				text-indent: 3.75em;
-				white-space: nowrap;
+				/*white-space: nowrap;*/
 			}
 
 				ul.icons li a:before {
@@ -899,6 +897,7 @@
 			opacity: 0.5;
 		}
 
+	
 /* Main */
 
 	#main {
@@ -922,7 +921,7 @@
 		opacity: 0.95;
 		position: relative;
 		text-align: center;
-		width: 27em;
+		width: 32em;
 	}
 
 		#main .avatar {
@@ -935,7 +934,7 @@
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #333;
+				box-shadow: 0 0 0 .75em #333;
 			}
 
 			#main .avatar:before {
@@ -945,9 +944,9 @@
 				top: 50%;
 				left: -3em;
 				width: calc(100% + 6em);
-				height: 1px;
+				height: 2px;
 				z-index: -1;
-				background: #bbb;
+				background: #2c2c2c;
 			}
 
 		@media screen and (max-width: 480px) {
