@@ -757,7 +757,7 @@
 				overflow: hidden;
 				text-align: center;
 				text-indent: 3.75em;
-				/*white-space: nowrap;*/
+				white-space: nowrap;
 			}
 
 				ul.icons li a:before {
@@ -797,6 +797,10 @@
 				ul.icons li a:hover {
 					border-color: #4bb082;
 				}
+
+	#email {
+		display: none;
+	}
 
 		@media screen and (max-width: 480px) {
 
