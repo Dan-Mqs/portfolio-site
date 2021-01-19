@@ -927,6 +927,7 @@
 		position: relative;
 		text-align: center;
 		width: 32em;
+		
 	}
 
 		#main .avatar {
@@ -1056,13 +1057,17 @@
 
 		.skill-single {
 			font-size: 0.85em;
+			padding: 0 !important;
+			margin: 0 !important;
+			align-items: center !important;
+			text-align: center !important;
 		}
 
 		.skill-img {
 			display: inline-block;
 			transition: filter 0.5s ease;
 			filter: grayscale(100%);
-			width: 3em;
+			width: 2.5em;
 		}
 
 		.skill-img:hover {
@@ -1072,33 +1077,27 @@
 		/*skills-icons*/
 
 		ul.skill-icons {
+			width: fit-content;
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
-			margin-top: -0.675em;
+			display: grid;
+			grid-template-columns: auto auto auto;
+			grid-gap: 5em;
 		}
 	
 			ul.skill-icons li {
-				display: inline-block;
 				padding: 0.675em 0.2em;
 			}
 	
-				ul.skill-icons li a {
+				ul.skill-icons li {
 					text-decoration: none;
-					position: relative;
-					display: block;
 					width: 3.75em;
-					height: 3.75em;
-					border-radius: 20%;
-					/*border: solid 1px #c8cccf;*/
-					line-height: 3.75em;
-					overflow: hidden;
+					height: 3em;
 					text-align: center;
-					text-indent: 3.75em;
-					white-space: nowrap;
 				}
 	
-					ul.skill-icons li a:before {
+					/*ul.skill-icons li a:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
 						display: inline-block;
@@ -1134,7 +1133,7 @@
 	
 					ul.skill-icons li a:hover {
 						border-color: #4bb082;
-					}
+					}*/
 	
 			@media screen and (max-width: 480px) {
 	
@@ -1196,38 +1195,6 @@
 			opacity: 0;
 		}
 
-/* Footer */
-
-	#footer {
-		-moz-align-self: -moz-flex-end;
-		-webkit-align-self: -webkit-flex-end;
-		-ms-align-self: -ms-flex-end;
-		align-self: flex-end;
-		width: 100%;
-		padding: 1.5em 0 0 0;
-		color: rgba(255, 255, 255, 0.75);
-		cursor: default;
-		text-align: center;
-	}
-
-		#footer .copyright {
-			margin: 0;
-			padding: 0;
-			font-size: 0.9em;
-			list-style: none;
-		}
-
-			#footer .copyright li {
-				display: inline-block;
-				margin: 0 0 0 0.45em;
-				padding: 0 0 0 0.85em;
-				border-left: solid 1px rgba(255, 255, 255, 0.5);
-				line-height: 1;
-			}
-
-				#footer .copyright li:first-child {
-					border-left: 0;
-				}
 
 /* Wrapper */
 
@@ -1320,6 +1287,13 @@
 	opacity: 1;
   }
 
+
+  .skill-center {
+	  text-align: center;
+	  justify-content: center;
+	  align-items: center;
+	  align-content: center;
+  }
 
   .separator-icon {
 	  color: #ddd;
