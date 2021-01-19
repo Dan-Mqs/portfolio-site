@@ -1068,6 +1068,7 @@
 			transition: filter 0.5s ease;
 			filter: grayscale(100%);
 			width: 2.5em;
+			height: 2.5em;
 		}
 
 		.skill-img:hover {
@@ -1076,14 +1077,23 @@
 
 		/*skills-icons*/
 
-		ul.skill-icons {
-			width: fit-content;
+		div.skill-icons {
+			
+			/*width: fit-content;*/
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
 			display: grid;
-			grid-template-columns: auto auto auto;
-			grid-gap: 5em;
+			grid-template-columns: 7em 7em 7em;
+			justify-content: space-between;
+			row-gap: 2em;
+
+		}
+
+		div.skill-icons p {
+			margin: 0;
+			font-size: small;
+			letter-spacing: 0.1em;
 		}
 	
 			ul.skill-icons li {
@@ -1293,6 +1303,7 @@
 	  justify-content: center;
 	  align-items: center;
 	  align-content: center;
+	  display: inline-block;
   }
 
   .separator-icon {
