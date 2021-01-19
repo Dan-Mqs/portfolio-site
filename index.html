@@ -3,6 +3,7 @@
 <html lang="pt-br">
 	<head>
 		<title>Daniel Marques - Front-end Dev</title>
+		<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -61,22 +62,38 @@
 						<footer>
 							
 							<ul class="icons">
-								<li><a href="https://www.linkedin.com/in/dan-mqs/" class="icon brands fa-linkedin">LinkedIn</a></li>
-								<li><a href="https://github.com/Dan-Mqs" class="icon brands fa-github">GitHub</a></li>
-								<li><a onclick="showEmail()" class="fas fa-envelope">Email</a></li>
+								<li class="tooltip"><a href="https://www.linkedin.com/in/dan-mqs/" class="icon brands fa-linkedin"><span class="tooltiptext">LinkedIn</span></a></li>
+								<li class="tooltip"><a href="https://github.com/Dan-Mqs" class="icon brands fa-github"><span class="tooltiptext">GitHub</span></a></li>
+								<!--<li><a onclick="showEmail()" class="fas fa-envelope">Email</a></li>-->
 							</ul>
-							<p id="email">dev.danielmarques@outlook.com</p>
 						</footer>
 					</section>
 
+					<div class="separator">
+						
+						<span class="dot"></span>
+						<img class="separator-icon" src="images/graduation-cap-solid.svg" alt="Education">
+						<span class="dot"></span>
+
+					</div>
+
 					<section id="education">
 						<header>
+							<img id="edu-logo" src="images/logo-mackenzie-white.png" alt="Universidade Mackenzie">
 							<h2> Estudante</h2>
 							<p>Análise e Desenvolvimento de Sistemas</p>
 						</header>
 
 
 					</section>
+
+					<div class="separator">
+						
+						<span class="dot"></span>
+						<img class="separator-icon" src="images/brain.svg" alt="Skills">
+						<span class="dot"></span>
+
+					</div>
 
 					<section id="skills">
 						<header>
@@ -87,6 +104,7 @@
 						
 						<footer>
 							<ul class="skill-icons">
+
 								<li class="skill-single">HTML</li>	
 								<li class="skill-single">CSS</li>
 								<li class="skill-single">Javascript</li>

@@ -738,6 +738,7 @@
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		margin: 0;
 		margin-top: -0.675em;
 	}
 
@@ -754,7 +755,7 @@
 				width: 3.75em;
 				height: 3.75em;
 				line-height: 3.75em;
-				overflow: hidden;
+				/*overflow: hidden;*/
 				text-align: center;
 				text-indent: 3.75em;
 				white-space: nowrap;
@@ -1032,7 +1033,6 @@
 		position: relative;
 		text-align: center;
 		width: 27em;
-		margin-top: 2.75em;
 	}
 
 
@@ -1153,7 +1153,13 @@
 		position: relative;
 		text-align: center;
 		width: 27em;
-		margin-top: 2.75em;
+	}
+
+	#education #edu-logo {
+		width: 75%;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 1em;
 	}
 
 
@@ -1257,3 +1263,71 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+
+/*Tooltips*/
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+	visibility: hidden;	
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 4px;
+	padding: .3em .5em;
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: -25%;
+	opacity: 0;
+	transition: opacity 0.3s;
+	line-height: 1em;
+	margin: 0;
+	text-indent: 0;
+  }
+  
+  .tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+  }
+
+
+  .separator-icon {
+	  color: #ddd;
+	  width: 1.8em;
+	  filter: invert(100%) sepia(0%) saturate(3667%) hue-rotate(278deg) brightness(93%) contrast(85%);
+	  margin: 0;
+	  padding: 0;
+	  vertical-align: middle;
+  }
+
+  .separator {
+		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+		transition: opacity 1s ease, transform 1s ease;
+		text-align: center;
+  }
+
+  .dot {
+	  content: "";
+	  display: block;
+	  border-radius: 100%;
+	  border: 2px solid #ddd;
+	  margin: 1em;	
+	  opacity: 0.9;
+  }
