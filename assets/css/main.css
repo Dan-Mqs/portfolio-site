@@ -775,7 +775,7 @@
 				}
 
 				ul.icons li a:before {
-					color: #ffffff;
+					color: #ddd;
 					
 				}
 
@@ -1378,6 +1378,7 @@ section#projects {
 	  color: #ddd;
 	  width: 1.8em;
 	  filter: invert(100%) sepia(0%) saturate(3667%) hue-rotate(278deg) brightness(93%) contrast(85%);
+	  /*filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(49deg) brightness(103%) contrast(103%);*/
 	  margin: 0;
 	  padding: 0;
 	  vertical-align: middle;
