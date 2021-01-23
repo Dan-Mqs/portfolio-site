@@ -969,13 +969,6 @@
 
 		}
 
-		body.is-preload #main {
-			-moz-transform: rotateX(15deg);
-			-webkit-transform: rotateX(15deg);
-			-ms-transform: rotateX(15deg);
-			transform: rotateX(15deg);
-			opacity: 0;
-		}
 
 /* Footer */
 
@@ -1013,24 +1006,11 @@
 /*skills*/
 
 	#skills {
-		-moz-transform-origin: 50% 50%;
-		-webkit-transform-origin: 50% 50%;
-		-ms-transform-origin: 50% 50%;
-		transform-origin: 50% 50%;
-		-moz-transform: rotateX(0deg);
-		-webkit-transform: rotateX(0deg);
-		-ms-transform: rotateX(0deg);
-		transform: rotateX(0deg);
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
 		padding: 4.5em 3em 3em 3em ;
 		background: #333;
 		border-radius: 4px;
 		cursor: default;
 		max-width: 100%;
-		opacity: 0.95;
 		position: relative;
 		text-align: center;
 		width: 27em;
@@ -1047,13 +1027,6 @@
 
 		}
 
-		body.is-preload #skills {
-			-moz-transform: rotateX(15deg);
-			-webkit-transform: rotateX(15deg);
-			-ms-transform: rotateX(15deg);
-			transform: rotateX(15deg);
-			opacity: 0;
-		}
 
 		.skill-single {
 			font-size: 0.85em;
@@ -1107,43 +1080,6 @@
 					text-align: center;
 				}
 	
-					/*ul.skill-icons li a:before {
-						-moz-osx-font-smoothing: grayscale;
-						-webkit-font-smoothing: antialiased;
-						display: inline-block;
-						font-style: normal;
-						font-variant: normal;
-						text-rendering: auto;
-						line-height: 1;
-						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
-						font-weight: 400;
-					}
-	
-					ul.skill-icons li a:before {
-						color: #ffffff;
-						
-					}
-	
-					ul.skill-icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #4bb082, -1.25px 0px 0px #4bb082, 0px 1.25px 0px #4bb082, 0px -1.25px 0px #4bb082;
-					}
-	
-					ul.skill-icons li a:before {
-						position: absolute;
-						top: 0;
-						left: 0;
-						width: inherit;
-						height: inherit;
-						font-size: 1.85rem;
-						line-height: inherit;
-						text-align: center;
-						text-indent: 0;
-					}
-	
-					ul.skill-icons li a:hover {
-						border-color: #4bb082;
-					}*/
 	
 			@media screen and (max-width: 480px) {
 	
@@ -1156,24 +1092,11 @@
 			/*education*/
 
 	#education {
-		-moz-transform-origin: 50% 50%;
-		-webkit-transform-origin: 50% 50%;
-		-ms-transform-origin: 50% 50%;
-		transform-origin: 50% 50%;
-		-moz-transform: rotateX(0deg);
-		-webkit-transform: rotateX(0deg);
-		-ms-transform: rotateX(0deg);
-		transform: rotateX(0deg);
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
 		padding: 4.5em 3em 3em 3em ;
 		background: #333;
 		border-radius: 4px;
 		cursor: default;
 		max-width: 100%;
-		opacity: 0.95;
 		position: relative;
 		text-align: center;
 		width: 27em;
@@ -1197,36 +1120,16 @@
 
 		}
 
-		body.is-preload #education {
-			-moz-transform: rotateX(15deg);
-			-webkit-transform: rotateX(15deg);
-			-ms-transform: rotateX(15deg);
-			transform: rotateX(15deg);
-			opacity: 0;
-		}
 
 
 /*Projects*/
 		
 section#projects {
-	-moz-transform-origin: 50% 50%;
-	-webkit-transform-origin: 50% 50%;
-	-ms-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
-	-moz-transform: rotateX(0deg);
-	-webkit-transform: rotateX(0deg);
-	-ms-transform: rotateX(0deg);
-	transform: rotateX(0deg);
-	-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-	-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-	-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-	transition: opacity 1s ease, transform 1s ease;
 	padding: 4.5em 3em 3em 3em ;
 	background: #333;
 	border-radius: 4px;
 	cursor: default;
 	max-width: 100%;
-	opacity: 0.95;
 	position: relative;
 	text-align: center;
 	width: 27em;
@@ -1263,13 +1166,6 @@ section#projects {
 
 	}
 
-	body.is-preload #projects {
-		-moz-transform: rotateX(15deg);
-		-webkit-transform: rotateX(15deg);
-		-ms-transform: rotateX(15deg);
-		transform: rotateX(15deg);
-		opacity: 0;
-	}
 
 /* Wrapper */
 

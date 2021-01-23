@@ -7,7 +7,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 	<body class="is-preload">
 
@@ -15,7 +17,7 @@
 			<div id="wrapper">
 
 				<!-- Main -->
-					<section id="main">
+					<section id="main" data-aos="fade-up">
 						<header>
 							<span class="avatar"><img src="images/avatar.png" alt="avatar" width="135 px"/></span>
 							<h1>Daniel Marques</h1>
@@ -69,7 +71,7 @@
 						</footer>
 					</section>
 
-					<div class="separator">
+					<div class="separator" data-aos="fade-up">
 						
 						<span class="dot"></span>
 						<img class="separator-icon" src="images/separators/graduation-cap-solid.svg" alt="Education">
@@ -77,7 +79,7 @@
 
 					</div>
 
-					<section id="education">
+					<section id="education" data-aos="fade-up">
 						<header>
 							<img id="edu-logo" src="images/logo-mackenzie-white.png" alt="Universidade Mackenzie">
 							<h2> Estudante</h2>
@@ -87,7 +89,7 @@
 
 					</section>
 
-					<div class="separator">
+					<div class="separator" data-aos="fade-up">
 						
 						<span class="dot"></span>
 						<img class="separator-icon" src="images/separators/brain.svg" alt="Skills">
@@ -95,7 +97,7 @@
 
 					</div>
 
-					<section id="skills">
+					<section id="skills" data-aos="fade-up">
 						<header>
 							<h2>Habilidades</h2>
 							<p>skills</p>
@@ -137,7 +139,7 @@
 						</footer>
 					</section>
 
-					<div class="separator">
+					<div class="separator" data-aos="fade-up">
 						
 						<span class="dot"></span>
 						<img class="separator-icon" src="images/separators/hammer-solid.svg" alt="Projetos">
@@ -145,7 +147,7 @@
 
 					</div>
 
-					<section id="projects">
+					<section id="projects" data-aos="fade-up">
 
 						<header>
 							<h2>Projetos</h2>
@@ -193,6 +195,10 @@
 					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
+			</script>
+			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+			<script>
+				AOS.init();
 			</script>
 
 	</body>
