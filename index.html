@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<script>
-		history.scrollRestoration = "manual"
+			history.scrollRestoration = "manual"
 		</script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
@@ -19,6 +19,15 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
+				<!--Welcome-->
+					<section id=welcome>
+						<div>
+							<div id="welcome-text">Bem-vindo</div>
+							<div id="welcome-arrow" onclick="scrollToContent()"><img class="bounce" src="images/arrow-down.svg" alt="Clique"></div>
+						</div>
+					</section>
+
+					<div id="content-start"></div>
 				<!-- Main -->
 					<section id="main" data-aos="fade-up">
 						<header>
@@ -85,7 +94,7 @@
 					<section id="education" data-aos="fade-up">
 						<header>
 							<img id="edu-logo" src="images/logo-mackenzie-white.png" alt="Universidade Mackenzie">
-							<h2> Estudante</h2>
+							<h2>Estudante</h2>
 							<p>Análise e Desenvolvimento de Sistemas</p>
 						</header>
 
@@ -203,6 +212,11 @@
 			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 			<script>
 				AOS.init();
+			</script>
+			<script>
+				function scrollToContent(){
+					document.getElementById("content-start").scrollIntoView();
+				}
 			</script>
 
 	</body>
