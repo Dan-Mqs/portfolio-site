@@ -906,18 +906,10 @@
 /* Main */
 
 	#main {
-		-moz-transform-origin: 50% 50%;
-		-webkit-transform-origin: 50% 50%;
-		-ms-transform-origin: 50% 50%;
-		transform-origin: 50% 50%;
-		-moz-transform: rotateX(0deg);
-		-webkit-transform: rotateX(0deg);
-		-ms-transform: rotateX(0deg);
-		transform: rotateX(0deg);
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
+		-moz-transition: opacity 1s ease;
+		-webkit-transition: opacity 1s ease;
+		-ms-transition: opacity 1s ease;
+		transition: opacity 1s ease;
 		padding: 4.5em 3em 3em 3em ;
 		background: #333;
 		border-radius: 4px;
@@ -928,6 +920,10 @@
 		text-align: center;
 		width: 32em;
 		
+	}
+
+	body.is-preload #main {
+		opacity: 0;
 	}
 
 		#main .avatar {
