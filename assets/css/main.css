@@ -919,7 +919,7 @@
 
 	section#welcome #welcome-text {
 		font-size: 2em;
-		opacity: 0.7;
+		opacity: 0.85;
 		letter-spacing: 0.5em;
 		display: block;
 	}
@@ -932,7 +932,7 @@
 	section#welcome #welcome-arrow img {
 		width: 2em;
 		filter: invert(100%) sepia(0%) saturate(3667%) hue-rotate(278deg) brightness(93%) contrast(85%);
-		opacity: 0.7;
+		opacity: 0.85;
 		margin-top: 2em;
 	}
 	
