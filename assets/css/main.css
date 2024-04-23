@@ -922,6 +922,7 @@
 		opacity: 0.85;
 		letter-spacing: 0.5em;
 		display: block;
+		text-align: center;
 	}
 
 	section#welcome #welcome-arrow {
